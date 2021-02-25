@@ -1,0 +1,17 @@
+#logging:
+#  level:
+#    avg: debug
+
+gateway:
+  mongo:
+    enabled: true
+  memory:
+    enabled: false
+
+source:
+  file:
+    enabled: true
+    name: samples.log
+    skip-import: true
+  kinesis:
+    enabled: false
